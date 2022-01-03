@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+   
+}
+
+#title h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+#title p {
+    text-align: center;
+    margin: 20px 150px;
+}
+
+#start-btn{
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: rgba(150, 8, 150, 0.651);
+    border-radius: 5px;
+}
+
+.page-content h2{
+    margin: 20px 180px;
+    
+}
+
+
+.page-content {
+    display: none;
+}
+
+.btn {
+    display: block;
+    margin: 10px 180px;
+    background-color: rgb(90, 5, 90);
+    color: white;
+    border-radius: 5px;
+    width: 160px;
+    text-align: left;
+    padding: 5px;
+   
+}
+
+.btn:hover{
+    background-color: rgb(187, 16, 187);
+}
+
+
+
+
+
+.footer{
+    margin-top: 30px;
+    display: none;
+}
+
+#msg {
+    margin: 10px 180px;
+    font-size: 24px;
+    font-style: italic;
+    color: lightgray;
+    
+}
+
+#hrLine {
+    margin: 10px 180px;
+    color: lightgray;
+}
+
+.form {
+    margin: 180px 180px;
+    display: none;
+
+}
+
+.form h1,p {
+    margin-bottom: 10px;
+}
+
+#input-btn{
+    height: 25px;
+}
+
+
+#submit-btn{
+    color: white;
+    background-color: rgb(236, 31, 236);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.info {
+    margin: 180px 180px;
+    display: none;
+    
+}
+
+.info h1, p{
+    margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <title>Code Quiz</title>
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <p id="view-highscores">View Highscores</p>
+            </div>
+            <div id="time">
+                <p >Time: <span id="timer">0</span></p>
+            </div>
+        </div>
+     
+        <div id="title">
+            <h1>Code Quiz Challenge</h1>
+            <p>
+                Try to answer the following code-related questions within the time
+                limit. Keep in mind that incorrect answers will penalize your scoretime
+                by ten seconds.
+            </p>
+        </div>
+
+        <div id="btn-container">
+            <button id="start-btn" type="button">Start Quiz</button>
+        </div>
+
+        <div class="page-content" id="page-content">
+            <h2 id="questionnaire"></h2>
+           
+            <div class="button">
+                <button class="btn" id="btn-1">1. <span id="span-1" class="span" > </span></button>
+                <button class="btn" id="btn-2">2. <span id="span-2" class="span" > </span></button>
+                <button class="btn" id="btn-3">3. <span id="span-3" class="span" > </span></button>
+                <button class="btn" id="btn-4">4. <span id="span-4" class="span" > </span></button>
+
+            </div>
+
+            <div class="footer">
+                <hr id="hrLine">
+                <p id="msg"></p>
+
+            </div>
+        </div>
+
+        <div class="info">
+            <h1 id="info-title"></h1>
+            <p>1. <span id="span-score"></span></p>
+            <div>
+                <button id="go-back">Go Back</button>
+                <button id="clear-score">Clear Highscores</button>
+            </div>
+
+        </div>
+      
+        <div class="form">
+            <h1>All done!</h1>
+            <p id="score"> </p>
+            <label for="submit-btn">Enter initials: </label>
+            <input  id="input-btn" type="text" value="">
+            <input type="submit" value="Submit" id="submit-btn">
+        </div>
+
+
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+
+</html>
